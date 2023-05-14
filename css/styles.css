@@ -19,7 +19,7 @@ body {
     background-color: #FFFFFF
 }
 
-.img {
+img {
     display: block;
 }
 
@@ -41,6 +41,13 @@ body {
     src: url(../fonts/Roboto/Roboto-Bold.ttf)
 } */
 
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
 /* !Header  */
 
  .logo {
@@ -52,6 +59,7 @@ body {
     text-transform: uppercase;
     /* IRIS */
     color: #4D5AE5;
+    margin-right: 76px;
 }
 
 .logo-studio-top {
@@ -68,6 +76,7 @@ body {
     letter-spacing: 0.02em;
     /* NAVY BLUE */    
     color: var(--color-navyblue);
+    padding: 24px 0;
 }
 
 .header-navigation-link:hover {
@@ -108,6 +117,7 @@ body {
 .header-container {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation-withlogo {
@@ -125,13 +135,13 @@ body {
 
 .header-adress-list {
     display: flex;
-    /* margin-left: auto; */
-    gap: 30px;
+    margin-right: 40px;
+    gap: 40px;
  }
 
-/* .header-address {
+.header-address {
     margin-left: auto;
-} */
+}
 
 /* !Section 1 */
 
@@ -142,13 +152,11 @@ body {
     /* width: 1400px;  */
     left: 0px;
     top: 72px;
-    margin: 188px, 472px, 292px, 472px;
+    padding: 188px 0;
 }
 
 .main-title {
-    /* max-width: 496px;
-    max-height: 120px; */
-
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -157,9 +165,8 @@ body {
     letter-spacing: 0.02em;
     /* WHITE */
     color: #FFFFFF;
-padding-left: 472px;
-padding-right: 472px;
-
+    padding-left: 472px;
+    padding-right: 472px;
 }
 
 
@@ -169,27 +176,27 @@ padding-right: 472px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    /* display: flex; */
-    align-items: center;
+   
     letter-spacing: 0.04em;
     /* WHITE */
     color: #FFFFFF;
-    background: #4D5AE5;
+    background-color: var(--color-iris);
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    border: transparent;
+    border: none;
 
-    min-width: 169px;
-    min-height: 56px;
     
+    display: block;
+    /* align-items: center; */
+    margin-left: calc((1158px - 169px)/2);
+    min-width: 169px;
+    height: 56px;
 }
 
-.btn-wrapper {
+/* .btn-wrapper {
     text-align: center;
-}
-
-
+} */
 
 
 .main-btn:hover {
@@ -202,10 +209,14 @@ padding-right: 472px;
 
 
 /* ! SEction 2 */
+.features-section {
+    padding: 120px 0;
+}
 
 .fearutes-list {
     display:flex;
     justify-content: center;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .wedoing-wrap {
@@ -220,6 +231,8 @@ padding-right: 472px;
     letter-spacing: 0.02em;
     /* NAVY BLUE */
     color: var(--color-navyblue);
+
+    flex-basis: calc((100% - 3 * 24px) / 4)
  }
 
  .fearutes-item-description {
@@ -234,6 +247,10 @@ padding-right: 472px;
 
  /*! Section 3 Whatarewedoing  */
 
+.wedoing-section{
+    padding-bottom: 120px;
+}
+ 
 .wedoing-list {
     display: flex;
     gap: 24px;
@@ -254,8 +271,12 @@ text-transform: capitalize;
 /* NAVY BLUE */
 
 color: #2E2F42;
-
+margin-bottom: 72px;
  }
+
+.wedoing-item{
+    width: calc((100% - 3 * 16px) / 3);
+} 
 
 
 /* ! Section 4 TEAM HERO*/
@@ -263,7 +284,7 @@ color: #2E2F42;
 .hero{
     /* CLOUD */
 background: #F4F4FD;
-
+padding: 120px 0;
 }
 
 .hero-section-title {
@@ -279,7 +300,7 @@ background: #F4F4FD;
    text-align: center;
 
    padding-top: 120px;   
-   padding-bottom: 72px;
+   margin-bottom: 72px; 
 }
 
 .hero-list {
@@ -296,7 +317,8 @@ background: #F4F4FD;
 .hero-item {
     width: calc((100%-(24px*3))/4);
     text-align: center;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 
@@ -326,12 +348,13 @@ background: #F4F4FD;
 
 
 .footer {
-    background-color: var(--color-navyblue) ;
+    background-color: var(--color-navyblue);
+    padding: 100px 0;
 }
 
 .footer .link {
-    padding-left: 156px;
-    /* padding-top: 101.5px; */
+    display: inline-block;
+    margin-bottom: 16px; 
 }
 
 /* Logo and logospan in the heared */
@@ -350,8 +373,8 @@ letter-spacing: 0.02em;
 /* CLOUD */
 color: var(--color-cloud);
 
-padding-bottom: 100px;
-padding-left: 156px;
+/* padding-bottom: 100px;
+padding-left: 156px; */
     
 }
 
