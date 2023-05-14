@@ -1,0 +1,326 @@
+/* Опис змінних по всьому документ. Якщо сворити в секції, то тільки в цієї секції буде працювати */
+:root {
+        /* NAVY BLUE */
+    --color-navyblue: #2E2F42;
+
+    /* IRIS */
+    --color-iris: #4d5ae5;
+         /* OCEAN */
+    --color-ocean: #404BBF;
+     /* CLOUD */
+    --color-cloud: #F4F4FD;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* SLATE */
+    color: #434455;
+    background-color: #FFFFFF
+}
+
+.list {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'Roboto700';
+    src: url(../fonts/Roboto/Roboto-Bold.ttf)
+} */
+
+/* !Header  */
+
+ .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /* IRIS */
+    color: #4D5AE5;
+}
+
+.logo-studio-top {
+  color: var(--color-navyblue);    
+}
+
+
+.header-navigation-link {
+    font-style: normal;     
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */    
+    color: var(--color-navyblue);
+}
+
+.header-navigation-link:hover {
+    color: var(--color-ocean);
+    font-style: normal; 
+}
+
+.header-navigation-link:focus {
+    color: var(--color-ocean);
+    font-style: normal;  
+}
+
+.header-adress, header-adress-list {
+    font-style: normal;
+}
+
+.header-contact-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: #434455;
+}
+
+.header-contact-link:hover {
+    color: var(--color-ocean);
+}
+
+.header-contact-link:focus {
+    color: var(--color-ocean);
+}
+/* !Section 1 */
+.top-section {
+    background: #2E2F42; ;
+}
+
+.main-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        /* or 107% */
+        text-align: center;
+        letter-spacing: 0.02em;
+        /* WHITE */
+        color: #FFFFFF;
+}
+
+.main-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.04em;
+    /* WHITE */
+    color: #FFFFFF;
+    background: #4D5AE5;
+    cursor: pointer;
+}
+.main-btn:hover {
+    background-color: #404BBF;
+}
+
+.main-btn:focus {
+    background-color: #404BBF;
+}
+
+
+/* ! SEction 2 */
+ .fearutes-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+    color: var(--color-navyblue);
+ }
+
+ .fearutes-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: #434455;
+ }
+
+ /*! Section 3 What are we doing  */
+
+
+ .wedoing-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+ }
+
+
+/* ! Section 4 TEAM HERO*/
+.hero{
+    /* CLOUD */
+   background: #F4F4FD;
+}
+
+.hero-section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+     text-align: center;
+    letter-spacing: 0.02em;
+     text-transform: capitalize;
+    /* NAVY BLUE */
+    color: #2E2F42;
+   /* color: var(--title-color) */
+   text-align: center
+}
+
+.hero-list {}
+.hero-item {
+    background-color: #FFFFFF
+}
+.hero-link {}
+
+.hero-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        /* identical to box height, or 120% */
+        text-align: center;
+        letter-spacing: 0.02em;
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+
+.hero-title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+        text-align: center;
+        letter-spacing: 0.02em;
+        /* SLATE */
+        color: #434455;
+}
+
+/* ! Footer */
+.footer {
+    background-color: var(--color-navyblue) ;
+}
+
+/* Logo and logospan in the heared */
+.logo-studio-bottom {
+    /* CLOUD */
+    color: var(--color-cloud);
+}
+
+.footer-description {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.17;
+/* or 150% */
+letter-spacing: 0.02em;
+/* CLOUD */
+color: var(--color-cloud;)
+}
+
+/* PORTFOLIO */
+.list {
+}
+
+.btn-features-portfolio {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+/* display: flex;
+align-items: center; */
+text-align: center;
+letter-spacing: 0.04em;
+/* IRIS */
+color: var(--color-iris);
+/* CLOUD */
+background: var(--color-cloud);
+/* CORNFLOWER */
+
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+font-family: "Roboto", sans-serif;
+cursor: pointer;
+}
+
+.btn-features-portfolio:hover, .btn-features-portfolio:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+
+
+/* .btn-active {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+     identical to box height, or 150% 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+         WHITE 
+    color: #FFFFFF;
+     OCEAN 
+     background: #404BBF;
+    border-radius: 4px;
+} */
+
+/*! PROJECTS */
+
+.list-of-projects {
+    
+}
+.projects-list-item {
+    
+}
+.project-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+    color: #2E2F42; 
+    text-decoration: none; 
+}
+.project-description {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: #434455;
+}
