@@ -44,11 +44,18 @@ img {
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px; 
+ 
 }
 
 
 /* !Header  */
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+
 
  .logo {
     font-family: "Raleway", sans-serif;
@@ -117,7 +124,7 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
+    /* border-bottom: 1px solid #e7e9fc;  Не хоче перевілятися*/
 }
 
 .header-navigation-withlogo {
@@ -144,15 +151,13 @@ img {
 }
 
 /* !Section 1 */
-
-
 .top-section {
     background: #2E2F42; 
     height: 600px;
-    /* width: 1400px;  */
     left: 0px;
     top: 72px;
     padding: 188px 0;
+    /* text-align: center; */
 }
 
 .main-title {
@@ -165,11 +170,11 @@ img {
     letter-spacing: 0.02em;
     /* WHITE */
     color: #FFFFFF;
-    padding-left: 472px;
-    padding-right: 472px;
+    /* padding-left: 472px;
+    padding-right: 472px; */
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
-
-
 
 .main-btn {
     font-family: "Roboto", sans-serif;
@@ -185,11 +190,13 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
-
-    
+   
     display: block;
+    
     /* align-items: center; */
-    margin-left: calc((1158px - 169px)/2);
+    /* margin-left: calc((1158px - 169px)/2); */
+    margin: 0 auto;
+    padding: 16px 32px;
     min-width: 169px;
     height: 56px;
 }
