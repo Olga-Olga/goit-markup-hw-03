@@ -13,52 +13,61 @@
       rel="stylesheet"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
   </head>
   <body>
     <!-- ! Header -->
     <header class="header">
-      <nav>
-        <a class="link logo" href="./index.html">
-          Web<span class="logo-studio-top">Studio</span></a>
-        <ul class="header-navigation-list list">
-          <li class="header-navigation-item">
-            <a class="header-navigation-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-navigation-item">
-            <a class="header-navigation-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="header-navigation-item">
-            <a class="header-navigation-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="header-container">
+        <nav class="header-navigation-withlogo">
+          <a class="link logo" href="./index.html">
+            Web<span class="logo-studio-top">Studio</span></a
+          >
+          <ul class="header-navigation-list list">
+            <li class="header-navigation-item">
+              <a class="header-navigation-link link" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="header-navigation-item">
+              <a class="header-navigation-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-navigation-item">
+              <a class="header-navigation-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-      <address class="header-adress">
-        <ul class="header-adress-list list">
-          <li>
-            <a class="header-contact-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a
-              class="header-contact-link link"
-              href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="header-adress">
+          <ul class="header-adress-list list">
+            <li>
+              <a
+                class="header-contact-link link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="header-contact-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
       <!-- Section1 -->
       <section class="top-section">
         <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button class="main-btn" type="button">Order Service</button>
+        <div class="btn-wrapper">
+          <button class="main-btn" type="button">Order Service</button>
+        </div>
       </section>
 
       <!-- Section2 -->
@@ -98,18 +107,24 @@
 
       <!-- Section 3 -->
       <section class="wedoing-section">
-        <h2 class="wedoing-title">What are we doing</h2>
-        <ul class="wedoing-list list">
-          <li class="wedoing-item">
-            <img src="./images/WeDoing/Monitor.jpg" alt="Monitor" width="360" />
-          </li>
-          <li class="wedoing-item">
-            <img src="./images/WeDoing/Tel.jpg" alt="Telephone" width="360" />
-          </li>
-          <li class="wedoing-item">
-            <img src="./images/WeDoing/Laptop.jpg" alt="Laptop" width="360" />
-          </li>
-        </ul>
+        <div class="wedoing-wrap">
+          <h2 class="wedoing-title">What are we doing</h2>
+          <ul class="wedoing-list list">
+            <li class="wedoing-item">
+              <img
+                src="./images/WeDoing/Monitor.jpg"
+                alt="Monitor"
+                width="360"
+              />
+            </li>
+            <li class="wedoing-item">
+              <img src="./images/WeDoing/Tel.jpg" alt="Telephone" width="360" />
+            </li>
+            <li class="wedoing-item">
+              <img src="./images/WeDoing/Laptop.jpg" alt="Laptop" width="360" />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Section 4 -->
@@ -161,7 +176,9 @@
     </main>
 
     <footer class="footer">
-      <a class="link logo" href="./index.html">Web<span class="logo-studio-bottom">Studio</span></a>
+      <a class="link logo" href="./index.html"
+        >Web<span class="logo-studio-bottom">Studio</span></a
+      >
       <p class="footer-description">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.

@@ -76,7 +76,7 @@ body {
     font-style: normal;  
 }
 
-.header-adress, header-adress-list {
+.header-adress-list {
     font-style: normal;
 }
 
@@ -98,21 +98,65 @@ body {
 .header-contact-link:focus {
     color: var(--color-ocean);
 }
+
+
+/*  */
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation-withlogo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    }
+
+.header-navigation-list {
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+}
+
+
+.header-adress-list {
+    display: flex;
+    /* margin-left: auto; */
+    gap: 30px;
+ }
+
+/* .header-address {
+    margin-left: auto;
+} */
+
 /* !Section 1 */
+
+
 .top-section {
-    background: #2E2F42; ;
+    background: #2E2F42; 
+    width: 1440px;
+    /* height: 600px; */
+    left: 0px;
+    top: 72px;
+    margin: 188px, 472px, 292px, 472px;
 }
 
 .main-title {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        /* or 107% */
-        text-align: center;
-        letter-spacing: 0.02em;
-        /* WHITE */
-        color: #FFFFFF;
+    max-width: 496px;
+    max-height: 120px;
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    /* or 107% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    /* WHITE */
+    color: #FFFFFF;
+
 }
+
+
 
 .main-btn {
     font-family: "Roboto", sans-serif;
@@ -126,7 +170,22 @@ body {
     color: #FFFFFF;
     background: #4D5AE5;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: transparent;
+
+    min-width: 169px;
+    min-height: 56px;
+    
 }
+
+.btn-wrapper {
+    text-align: center;
+}
+
+
+
+
 .main-btn:hover {
     background-color: #404BBF;
 }
@@ -137,6 +196,15 @@ body {
 
 
 /* ! SEction 2 */
+
+.fearutes-list {
+    display:flex;
+}
+
+.wedoing-wrap {
+    text-align: center;
+}
+
  .fearutes-item-title {
     font-weight: 500;
     font-size: 20px;
@@ -157,7 +225,12 @@ body {
     color: #434455;
  }
 
- /*! Section 3 What are we doing  */
+ /*! Section 3 Whatarewedoing  */
+
+.wedoing-list {
+    display: flex;
+    gap: 24px;
+}
 
 
  .wedoing-title{
@@ -178,6 +251,13 @@ color: #2E2F42;
 
 
 /* ! Section 4 TEAM HERO*/
+
+.hero-list {
+    display: flex;
+    gap: 24px;
+}
+
+
 .hero{
     /* CLOUD */
    background: #F4F4FD;
@@ -225,6 +305,8 @@ color: #2E2F42;
 }
 
 /* ! Footer */
+
+
 .footer {
     background-color: var(--color-navyblue) ;
 }
@@ -243,7 +325,7 @@ line-height: 1.17;
 /* or 150% */
 letter-spacing: 0.02em;
 /* CLOUD */
-color: var(--color-cloud;)
+color: var(--color-cloud);
 }
 
 /* PORTFOLIO */
