@@ -125,6 +125,7 @@ img {
     display: flex;
     align-items: center;
     /* border-bottom: 1px solid #e7e9fc;  Не хоче перевілятися*/
+    height: 72px;
 }
 
 .header-navigation-withlogo {
@@ -218,6 +219,7 @@ img {
 /* ! SEction 2 */
 .features-section {
     padding: 120px 0;
+    height: 412px;
 }
 
 .fearutes-list {
@@ -228,6 +230,7 @@ img {
 
 .wedoing-wrap {
     text-align: center;
+    padding-bottom: 120px;
 }
 
  .fearutes-item-title {
@@ -255,29 +258,26 @@ img {
  /*! Section 3 Whatarewedoing  */
 
 .wedoing-section{
-    padding-bottom: 120px;
+    padding-bottom: 120px; 
+    height: 412px;
 }
- 
+
 .wedoing-list {
     display: flex;
     gap: 24px;
     justify-content: center;
 }
 
-
  .wedoing-title{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 /* identical to box height, or 111% */
-
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-
 /* NAVY BLUE */
-
-color: #2E2F42;
+color: var(--color-navyblue);
 margin-bottom: 72px;
  }
 
@@ -416,8 +416,6 @@ cursor: pointer;
     background-color: #404BBF;
 }
 
-
-
 /* .btn-active {
     font-style: normal;
     font-weight: 500;
@@ -437,8 +435,19 @@ cursor: pointer;
 
 /*! PROJECTS */
 
+.buttons-features-list {
+    display: flex;
+    justify-content: center;
+    height: 216px;
+    /* padding: 12px 24px;
+    margin-bottom: 72px; */
+}
+
 .list-of-projects {
-    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 .projects-list-item {
     
