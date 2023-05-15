@@ -48,13 +48,11 @@ img {
  
 }
 
-
 /* !Header  */
 
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
-
 
 
  .logo {
@@ -218,14 +216,16 @@ img {
 
 /* ! SEction 2 */
 .features-section {
-    padding: 120px 0;
-    height: 412px;
+    /* padding: 120px 0;
+    height: 412px; */
+    margin: 120px 156px 120px 156px;
 }
 
 .fearutes-list {
     display:flex;
     justify-content: center;
     flex-basis: calc((100% - 3 * 24px) / 4);
+    gap: 24px;
 }
 
 .wedoing-wrap {
@@ -241,8 +241,7 @@ img {
     letter-spacing: 0.02em;
     /* NAVY BLUE */
     color: var(--color-navyblue);
-
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    /* flex-basis: calc((100% - 3 * 24px) / 4) */
  }
 
  .fearutes-item-description {
@@ -255,11 +254,18 @@ img {
     color: #434455;
  }
 
+ .fearutes-list .fearutes-item{
+    width: calc((100% - 72px) / 4);
+ }
+
  /*! Section 3 Whatarewedoing  */
 
 .wedoing-section{
-    padding-bottom: 120px; 
-    height: 412px;
+    /* padding-bottom: 120px; 
+    padding-left: 120px;
+    padding-right: 120px; */
+    /* height: 412px; */
+    margin: 0px 156px 120px 156px;
 }
 
 .wedoing-list {
@@ -291,7 +297,7 @@ margin-bottom: 72px;
 .hero{
     /* CLOUD */
 background: #F4F4FD;
-padding: 120px 0;
+padding: 120px 0px;
 }
 
 .hero-section-title {
@@ -306,8 +312,9 @@ padding: 120px 0;
    /* color: var(--title-color) */
    text-align: center;
 
-   padding-top: 120px;   
+   /* padding-top: 120px;    */
    margin-bottom: 72px; 
+
 }
 
 .hero-list {
@@ -315,19 +322,25 @@ padding: 120px 0;
     gap: 24px;
     /* align-items: center; */
     justify-content: center;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 
-.out-team-list-wrapper {
+/* .out-team-list-wrapper {
     text-align: center;
-}
+} */
 
 .hero-item {
     width: calc((100%-(24px*3))/4);
     text-align: center;
     background-color: #FFFFFF;
     flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
+.team-member-info{
+    padding: 32px 16px;
+}
 
 .hero-name {
         font-weight: 500;
@@ -338,6 +351,7 @@ padding: 120px 0;
         letter-spacing: 0.02em;
         /* NAVY BLUE */
         color: #2E2F42;
+        margin-bottom: 8px
 }
 
 .hero-title {
@@ -357,6 +371,7 @@ padding: 120px 0;
 .footer {
     background-color: var(--color-navyblue);
     padding: 100px 0;
+    height: 312px;
 }
 
 .footer .link {
