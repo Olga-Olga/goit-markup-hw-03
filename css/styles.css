@@ -216,8 +216,8 @@ img {
 
 /* ! SEction 2 */
 .features-section {
-    /* padding: 120px 0;
-    height: 412px; */
+    padding: 120px 0;
+    /* height: 412px; */ 
     margin: 120px 156px 120px 156px;
 }
 
@@ -242,6 +242,7 @@ img {
     /* NAVY BLUE */
     color: var(--color-navyblue);
     /* flex-basis: calc((100% - 3 * 24px) / 4) */
+    margin-bottom: 8px; 
  }
 
  .fearutes-item-description {
@@ -265,7 +266,8 @@ img {
     padding-left: 120px;
     padding-right: 120px; */
     /* height: 412px; */
-    margin: 0px 156px 120px 156px;
+    /* margin: 0px 156px 120px 156px; */
+    padding-bottom: 120px;
 }
 
 .wedoing-list {
@@ -336,6 +338,7 @@ padding: 120px 0px;
     background-color: #FFFFFF;
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
+    /* width: calc((100% - 72px) / 4); */
 }
 
 .team-member-info{
@@ -401,6 +404,11 @@ padding-left: 156px; */
 }
 
 /* PORTFOLIO */
+
+.main-section{
+    padding: 96px 0 120px
+}
+
 .list {
 }
 
@@ -454,17 +462,39 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     height: 216px;
-    /* padding: 12px 24px;
-    margin-bottom: 72px; */
+
+    margin-bottom: 72px;
+    gap: 24px;
+
+
+
 }
+
+.btn-features-portfolio {
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
+
+.btn-features-portfolio:hover {
+    border: 1px solid transparent;
+
+}
+
+.btn-features-portfolio:focus {
+    border: 1px solid transparent;
+}
+
 
 .list-of-projects {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 24px;
+    /* gap: 24px; */
+    column-gap: 24px;
 }
 .projects-list-item {
+    /* column-gap: 24px; */
     
 }
 .project-title {
