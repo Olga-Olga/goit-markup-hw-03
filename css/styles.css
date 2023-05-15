@@ -324,8 +324,8 @@ padding: 120px 0px;
     gap: 24px;
     /* align-items: center; */
     justify-content: center;
-    margin-left: 156px;
-    margin-right: 156px;
+    /* margin-left: 156px;
+    margin-right: 156px; */
 }
 
 /* .out-team-list-wrapper {
@@ -336,14 +336,18 @@ padding: 120px 0px;
     width: calc((100%-(24px*3))/4);
     text-align: center;
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    /* flex-basis: calc((100% - 3 * 24px) / 4); */
     border-radius: 0px 0px 4px 4px;
-    /* width: calc((100% - 72px) / 4); */
+    width: calc((100% - 72px) / 4);
 }
 
-.team-member-info{
+/* .hero-link {
+    margin: 0px 0px 0px 0px;
+} */
+
+/* .team-member-info{
     padding: 32px 16px;
-}
+} */
 
 .hero-name {
         font-weight: 500;
