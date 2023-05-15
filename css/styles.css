@@ -500,14 +500,14 @@ cursor: pointer;
 }
 .projects-list-item {
     /* column-gap: 24px; */
-    border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3); 
-    border: 1px solid #e7e9fc; 
+
 }
 
 .item-title-descriprion{
-    /* padding: 32px 16px; */
-    margin-bottom: 8px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    
 }
 .project-title {
     font-weight: 500;
@@ -518,6 +518,7 @@ cursor: pointer;
     /* NAVY BLUE */
     color: #2E2F42; 
     text-decoration: none; 
+    margin-bottom: 8px;
 }
 .project-description {
     text-decoration: none;
