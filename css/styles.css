@@ -345,9 +345,9 @@ padding: 120px 0px;
     margin: 0px 0px 0px 0px;
 } */
 
-/* .team-member-info{
+.team-member-info{
     padding: 32px 16px;
-} */
+}
 
 .hero-name {
         font-weight: 500;
@@ -358,7 +358,7 @@ padding: 120px 0px;
         letter-spacing: 0.02em;
         /* NAVY BLUE */
         color: #2E2F42;
-        margin-bottom: 8px
+        margin-bottom: 8px;
 }
 
 .hero-title {
@@ -499,6 +499,7 @@ cursor: pointer;
 }
 .projects-list-item {
     /* column-gap: 24px; */
+    border: 1px solid #e7e9fc;
     
 }
 .project-title {
