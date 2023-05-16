@@ -216,7 +216,7 @@ img {
 
 /* ! SEction 2 */
 .features-section {
-    padding: 120px 0;
+    /* TODO padding: 120px 0; */
     /* height: 412px; */ 
     margin: 120px 156px 120px 156px;
 }
@@ -520,6 +520,7 @@ cursor: pointer;
     color: #2E2F42; 
     text-decoration: none; 
     margin-bottom: 8px;
+    margin-top: 0px;
 }
 .project-description {
     text-decoration: none;
@@ -530,4 +531,5 @@ cursor: pointer;
     letter-spacing: 0.02em;
     /* SLATE */
     color: #434455;
+    margin-bottom: 0px;
 }
